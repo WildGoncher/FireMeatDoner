@@ -12,7 +12,7 @@
     <header class="header">
       <div class="header__container">
         <div class="logo">
-          <img src="svg/logo_white_text.svg" alt="logo" />
+          <a href="#title"><img src="svg/logo_white_text.svg" alt="logo" /> </a>
         </div>
         <ul class="nav__links">
           <li class="nav__link"><a href="#menu">Меню</a></li>
@@ -41,7 +41,7 @@
     <main class="main">
       <!--<section class="first-slide">-->
       <div class="title__wrapper">
-        <h1 class="title">Мясо - огонь</h1>
+        <h1 id="title">Мясо - огонь</h1>
 
         <p class="address__string">Калининград, Московский проспект, 233к3</p>
       </div>
@@ -300,11 +300,20 @@
       </div>
       <!--</section>-->
     </main>
-    <footer>
-      <div class="dev">
-        <a href="#" class="dev-contact"
-          >dev-info не забыть добавить автора альбома</a
-        >
+    <footer >
+      <div id="dev">
+        <a id="made_by"
+        href="t.me/goalexwork"
+        target="_blank"
+        >A <span id="dev-hover">WildG </span> Site</a>
+        <a class="dev-link"
+                href="https://github.com/WildGoncher"
+                target="_blank"
+                ><img
+                  class="dev-icon"
+                  src="icons/github.png"
+                  alt="GitHub link"
+              /></a>
       </div>
     </footer>
   </body>
